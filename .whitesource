@@ -14,6 +14,36 @@
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
+  "hostRules":
+  [
+	{
+		"matchHost":"https://wsdev.jfrog.io/artifactory/",
+		"hostType":"maven",
+		"userName": "muhammad",
+		"encrypted":
+			{
+				"password":"wcBMA90FtVIhcznKAQf+Ora4/TioC440MBE1Ho784/YR8A02RR+31TYqGXv2ONt+SpBUBS0S75X6dw6zdhhFL8R6xxFX7LYPxh1IngzRMvfDScmUW3fVWvl7y00z7WbVAcpzJL2kxMiOZ1l7MU3A0+2FivDhUh3tY/OzbJ9qMopif1mF7vA6/KWim4XeTcYnUUJZ1i+uNVtmr8yv/VnOxNNbShlLN6ePpMb+iYjhr5k7Fg3Vtf473fLrPDvKu3PHO05jFY2zMHq2wMscPVF4ZlTuHjnrNKQZiMVvQa9Nse6lrSCzn4d+B5xMSQtf5WcKpqda6udix7DHdm0MrCBB9IzNWu24DWhmDlM3OQGrM9JiAcQ/NTf/5LjiGmuW9vK5LWgJVXoBnYrGh2bU4GNEvnxDCZ/iIH43y0wZECCfbRgITiMqraUDbeKmRjxrDQxS0Kru3oh0JRq0SIPKosjFG2O8kC/m0nRKa8aWI2clVr+UzTA"
+			}
+	},
+	{
+		"matchHost":"https://wsdev.jfrog.io/artifactory/default-maven-local/",
+		"hostType":"maven",
+		"userName": "muhammad",
+		"encrypted":
+			{
+				"password":"wcBMA90FtVIhcznKAQf+Ora4/TioC440MBE1Ho784/YR8A02RR+31TYqGXv2ONt+SpBUBS0S75X6dw6zdhhFL8R6xxFX7LYPxh1IngzRMvfDScmUW3fVWvl7y00z7WbVAcpzJL2kxMiOZ1l7MU3A0+2FivDhUh3tY/OzbJ9qMopif1mF7vA6/KWim4XeTcYnUUJZ1i+uNVtmr8yv/VnOxNNbShlLN6ePpMb+iYjhr5k7Fg3Vtf473fLrPDvKu3PHO05jFY2zMHq2wMscPVF4ZlTuHjnrNKQZiMVvQa9Nse6lrSCzn4d+B5xMSQtf5WcKpqda6udix7DHdm0MrCBB9IzNWu24DWhmDlM3OQGrM9JiAcQ/NTf/5LjiGmuW9vK5LWgJVXoBnYrGh2bU4GNEvnxDCZ/iIH43y0wZECCfbRgITiMqraUDbeKmRjxrDQxS0Kru3oh0JRq0SIPKosjFG2O8kC/m0nRKa8aWI2clVr+UzTA"
+			}
+	},
+	{
+		"matchHost":"https://wsdev.jfrog.io/artifactory/haytam-maven-libs-snapshot-local/",
+		"hostType":"maven",
+		"userName": "muhammad",
+		"encrypted":
+			{
+				"password":"wcBMA90FtVIhcznKAQf+Ora4/TioC440MBE1Ho784/YR8A02RR+31TYqGXv2ONt+SpBUBS0S75X6dw6zdhhFL8R6xxFX7LYPxh1IngzRMvfDScmUW3fVWvl7y00z7WbVAcpzJL2kxMiOZ1l7MU3A0+2FivDhUh3tY/OzbJ9qMopif1mF7vA6/KWim4XeTcYnUUJZ1i+uNVtmr8yv/VnOxNNbShlLN6ePpMb+iYjhr5k7Fg3Vtf473fLrPDvKu3PHO05jFY2zMHq2wMscPVF4ZlTuHjnrNKQZiMVvQa9Nse6lrSCzn4d+B5xMSQtf5WcKpqda6udix7DHdm0MrCBB9IzNWu24DWhmDlM3OQGrM9JiAcQ/NTf/5LjiGmuW9vK5LWgJVXoBnYrGh2bU4GNEvnxDCZ/iIH43y0wZECCfbRgITiMqraUDbeKmRjxrDQxS0Kru3oh0JRq0SIPKosjFG2O8kC/m0nRKa8aWI2clVr+UzTA"
+			}
+	}
+],
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
